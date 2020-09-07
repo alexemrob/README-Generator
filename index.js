@@ -9,7 +9,7 @@ function promptUser() {
         {
             type: "input",
             name: "title",
-            message: "What is your README title?"
+            message: "What is your project title?"
         },
         {
             type: "input",
@@ -18,35 +18,38 @@ function promptUser() {
         },
         {
             type: "input",
-            name: "tableOfContents",
-            message: "What is your table of contents?"
-        },
-        {
-            type: "input",
             name: "usage",
-            message: "What is your usage?"
+            message: "What is your usage information?"
         },
         {
             type: "input",
-            name: "license",
-            message: "Enter your licence for README."
+            name: "install",
+            message: "What are your instalation instructions?"
         },
         {
             type: "input",
             name: "contributing",
-            message: "Enter your contributing content."
+            message: "Enter your contribution guidelines."
         },
         {
             type: "input",
             name: "tests",
-            message: "Enter your tests content."
-
+            message: "Enter your tests instructions."
+        },
+        // {
+        //     type: "input",
+        //     name: "license",
+        //     message: "Enter your licence for README."
+        // },
+        {
+            type: "input",
+            name: "question1",
+            message: "Enter your Github username."
         },
         {
             type: "input",
-            name: "questions",
-            message: "Enter your README questions."
-
+            name: "question2",
+            message: "Enter your email address."
         }
     ]);
 }
@@ -68,15 +71,26 @@ function generateHTML(answers) {
     <h2 class="lead">${answers.description}.</h2>
     <ul class="list-group">
         <h3>Table of Contents</h3>
-      <li class="list-group-item">${answers.tableOfContents}</li>
+      <li>Title</li>
+      <li>Description</li>
+      <li>Installation</li>
+      <li>Usage</li>
+      <li>License</li>
+      <li>Contributing</li>
+      <li>Tests</li>
+      <li>Questions</li>
     </ul>
   </div>
   <div>
   <p>Usage: ${answers.usage}</p>
+  <p>Installation Instructions: ${answers.install}</p>
   <p>Licence: ${answers.license}</p>
   <p>Contributing: ${answers.contributing}</p>
   <p>Tests: ${answers.tests}</p>
-  <p>Questions: ${answers.questions}</p>
+  <p>Questions: <a href="https://www.github.com/" + ${answers.question1}>Visit my repository!</a>
+  Email me at ${answers.question2}
+  </p>
+
   </div>
 </div>
 </body>
