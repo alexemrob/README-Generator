@@ -71,14 +71,14 @@ function generateHTML(answers) {
     <h2 class="lead">${answers.description}.</h2>
     <ul class="list-group">
         <h3>Table of Contents</h3>
-      <li>Title</li>
-      <li>Description</li>
-      <li>Installation</li>
-      <li>Usage</li>
-      <li>License</li>
-      <li>Contributing</li>
-      <li>Tests</li>
-      <li>Questions</li>
+      <li><a href="#top">Title</a></li>
+      <li><a href="#top">Description</a></li>
+      <li><a href="#top">Installation</a></li>
+      <li><a href="#top">Usage</a></li>
+      <li><a href="#top">License</a></li>
+      <li><a href="#top">Contributing</a></li>
+      <li><a href="#top">Tests</a></li>
+      <li><a href="#top">Questions</a></li>
     </ul>
   </div>
   <div>
@@ -87,10 +87,8 @@ function generateHTML(answers) {
   <p>Licence: ${answers.license}</p>
   <p>Contributing: ${answers.contributing}</p>
   <p>Tests: ${answers.tests}</p>
-  <p>Questions: <a href="https://www.github.com/" + ${answers.question1}>Visit my repository!</a>
-  Email me at ${answers.question2}
-  </p>
-
+  <p>Questions: <a href="https://www.github.com/" + ${answers.question1}>Visit my repository!</a></p>
+  <p>Email me at ${answers.question2}</p>
   </div>
 </div>
 </body>
