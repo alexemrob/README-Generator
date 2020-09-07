@@ -36,11 +36,12 @@ function promptUser() {
             name: "tests",
             message: "Enter your tests instructions."
         },
-        // {
-        //     type: "input",
-        //     name: "license",
-        //     message: "Enter your licence for README."
-        // },
+        {
+            type: "list",
+            name: "license",
+            choices: ["Artistic license 2.0", "Boost Software License 1.0", "Creative Commons license family", "Eclipse Public License 1.0", "MIT", "ISC", "The Unilicense"],
+            message: "Choose a license for your README."
+        },
         {
             type: "input",
             name: "question1",
@@ -54,55 +55,42 @@ function promptUser() {
     ]);
 }
 
-function generateHTML(answers) {
-    return `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <title>Document</title>
-</head>
-<body>
-  <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">${answers.title}</h1>
-    <h2 class="lead">${answers.description}.</h2>
-    <ul class="list-group">
-        <h3>Table of Contents</h3>
-      <li><a href="#top">Title</a></li>
-      <li><a href="#top">Description</a></li>
-      <li><a href="#top">Installation</a></li>
-      <li><a href="#top">Usage</a></li>
-      <li><a href="#top">License</a></li>
-      <li><a href="#top">Contributing</a></li>
-      <li><a href="#top">Tests</a></li>
-      <li><a href="#top">Questions</a></li>
-    </ul>
-  </div>
-  <div>
-  <p>Usage: ${answers.usage}</p>
-  <p>Installation Instructions: ${answers.install}</p>
-  <p>Licence: ${answers.license}</p>
-  <p>Contributing: ${answers.contributing}</p>
-  <p>Tests: ${answers.tests}</p>
-  <p>Questions: <a href="https://www.github.com/" + ${answers.question1}>Visit my repository!</a></p>
-  <p>Email me at ${answers.question2}</p>
-  </div>
-</div>
-</body>
-</html>`;
-}
+function generateMD(answers) {
+    return `![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
+# Table of Contents
+- [Title](#Title:)
+- [Description](##Description:)
+- [Installation](###Installation)
+- [Usage](###Usage:)
+- [License](#${answers.license})
+- [Contributing](###Contributing:)
+- [Tests](#Tests:)
+- [Questions](###Questions:)
+#Title:
+${answers.title}
+##Description:
+${answers.description}
+###Usage:
+${answers.usage}
+###Installation Instructions:
+${answers.install}
+###Contributing:
+${answers.contributing}
+###Tests:
+${answers.tests}
+###Questions: 
+[Visit my repository!](https://www.github.com/${answers.question1})
+Email me at ${answers.question2}
+`}
 
 promptUser()
     .then(function (answers) {
-        const html = generateHTML(answers);
+        const mdFile = generateMD(answers);
 
-        return writeFileAsync("index.html", html);
+        return writeFileAsync("README.md", mdFile);
     })
     .then(function () {
-        console.log("Successfully wrote to index.html");
+        console.log("Successfully wrote to README.md");
     })
     .catch(function (err) {
         console.log(err);
