@@ -1,25 +1,27 @@
-![GitHub license](https://img.shields.io/badge/license-Creative Commons license family-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 # Table of Contents
-- [Title](#Title:)
-- [Description](##Description:)
+- [Title](#Title)
+- [Description](##Description)
 - [Installation](###Installation)
-- [Usage](###Usage:)
-- [License](#Creative Commons license family)
-- [Contributing](###Contributing:)
-- [Tests](#Tests:)
-- [Questions](###Questions:)
-#Title:
-README Generator
-##Description:
-this is a readme making tool made by me
-###Usage:
-do this do that
-###Installation Instructions:
-please follow rules
-###Contributing:
-guiding you here
-###Tests:
-one two three
-###Questions: 
+- [Usage](###Usage)
+- [License](#MIT)
+- [Contributing](###Contributing)
+- [Tests](###Tests)
+- [Questions](###Questions)
+
+
+#Title
+this is my title
+##Description
+this describes
+###Usage
+this infos
+###Installation Instructions
+this shows
+###Contributing
+this guides
+###Tests
+this tests
+###Questions
 [Visit my repository!](https://www.github.com/alexemrob)
-Email me at aleemrob@gmail.com
+Email me at email goes here
