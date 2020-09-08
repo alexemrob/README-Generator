@@ -1,7 +1,7 @@
 {
   "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) # Table of Contents - [Title](#Title) - [Description](##Description) - [Installation](###Installation) - [Usage](###Usage) - [License](#!GitHub}) - [Contributing](###Contributing) - [Tests](###Tests) - [Questions](###Questions)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/alexemrob/README-Generator.git"
   },
-  "author": "",
+  "author": "Alexandria Robertson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alexemrob/README-Generator/issues"

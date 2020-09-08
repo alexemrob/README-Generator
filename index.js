@@ -80,7 +80,9 @@ ${answers.contributing}
 ### Tests
 ${answers.tests}
 ### Questions
+
 [Visit my repository!](https://www.github.com/${answers.question1})
+
 Email me at ${answers.question2}`
 }
 
