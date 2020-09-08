@@ -62,13 +62,11 @@ function generateMD(answers) {
 - [Description](## Description)
 - [Installation](### Installation)
 - [Usage](### Usage)
-- [License](# ${answers.license})
+- [License](# !GitHub})
 - [Contributing](### Contributing)
 - [Tests](### Tests)
-- [Questions](### Questions)`
-
-
-`# Title
+- [Questions](### Questions)
+# Title
 * ${answers.title}
 ## Description
 * ${answers.description}
