@@ -60,30 +60,32 @@ function generateMD(answers) {
 # Table of Contents
 - [Title](#Title)
 - [Description](##Description)
-- [Installation](###Installation)
-- [Usage](###Usage)
-- [License](!GitHub)
-- [Contributing](###Contributing)
-- [Tests](###Tests)
-- [Questions](###Questions)
+- [Installation](##Installation)
+- [Usage](##Usage)
+- [License](##License)
+- [Contributing](##Contributing)
+- [Tests](##Tests)
+- [Questions](##Questions)
 
 # Title
 ${answers.title}
 ## Description
 ${answers.description}
-### Usage
+## Usage
 ${answers.usage}
-### Installation Instructions
+## License
+This project is licensed under the ${answers.license} License.
+## Installation Instructions
 ${answers.install}
-### Contributing
+## Contributing
 ${answers.contributing}
-### Tests
+## Tests
 ${answers.tests}
-### Questions
+## Questions
 
 [Visit my repository!](https://www.github.com/${answers.question1})
 
-Email me at ${answers.question2}`
+For any further questions email me at ${answers.question2}`
 }
 
 promptUser()
