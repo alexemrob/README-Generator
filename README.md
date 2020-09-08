@@ -10,17 +10,17 @@
 - [Questions](### Questions)
 
 # Title
-README Generator
+readme generator
 ## Description
-describeeeee
+describeeee
 ### Usage
-useeeeee
+usageeeeee
 ### Installation Instructions
-installllllllll
+instructttttt
 ### Contributing
-guideeeeeeeee
+guideeeee
 ### Tests
-testinggggggg
+testttttt
 ### Questions
 [Visit my repository!](https://www.github.com/alexemrob)
-Email me at emailll
+Email me at emailllllll

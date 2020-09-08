@@ -1,3 +1,4 @@
+//declare variables
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
@@ -58,28 +59,28 @@ function promptUser() {
 function generateMD(answers) {
     return `![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
 # Table of Contents
-- [Title](#Title)
-- [Description](##Description)
-- [Installation](###Installation)
-- [Usage](###Usage)
-- [License](#[!GitHub license]})
-- [Contributing](###Contributing)
-- [Tests](###Tests)
-- [Questions](###Questions)
+- [Title](# Title)
+- [Description](## Description)
+- [Installation](### Installation)
+- [Usage](### Usage)
+- [License](# [!GitHub license]})
+- [Contributing](### Contributing)
+- [Tests](### Tests)
+- [Questions](### Questions)
 
-#Title
+# Title
 ${answers.title}
-##Description
+## Description
 ${answers.description}
-###Usage
+### Usage
 ${answers.usage}
-###Installation Instructions
+### Installation Instructions
 ${answers.install}
-###Contributing
+### Contributing
 ${answers.contributing}
-###Tests
+### Tests
 ${answers.tests}
-###Questions
+### Questions
 [Visit my repository!](https://www.github.com/${answers.question1})
 Email me at ${answers.question2}`
 }
