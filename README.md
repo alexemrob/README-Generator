@@ -1,25 +1,26 @@
-![GitHub license](https://img.shields.io/badge/license-Creative Commons license family-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 # Table of Contents
 - [Title](# Title)
 - [Description](## Description)
 - [Installation](### Installation)
 - [Usage](### Usage)
-- [License](# !GitHub})
+- [License](# [!GitHub license]})
 - [Contributing](### Contributing)
 - [Tests](### Tests)
 - [Questions](### Questions)
+
 # Title
-* readmeeeee
+README Generator
 ## Description
-* decribeeee
+describeeeee
 ### Usage
-* useeeeee
+useeeeee
 ### Installation Instructions
-* installllllllll
+installllllllll
 ### Contributing
-* contributeeeeeeeeeee
+guideeeeeeeee
 ### Tests
-* testinggggggggg
+testinggggggg
 ### Questions
-* [Visit my repository!](https://www.github.com/alexemrob)
-* Email me at alexxxxxxxx
+[Visit my repository!](https://www.github.com/alexemrob)
+Email me at emailll
