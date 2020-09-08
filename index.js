@@ -65,10 +65,10 @@ function generateMD(answers) {
 - [License](# ${answers.license})
 - [Contributing](### Contributing)
 - [Tests](### Tests)
-- [Questions](### Questions)
+- [Questions](### Questions)`
 
 
-# Title
+`# Title
 ${answers.title}
 ## Description
 ${answers.description}
