@@ -15,12 +15,13 @@ Custom README.md Generator
 This generator will create a customized, organized, complete README file for your repository.
 ## Usage
 Run the "node index.js" command to receive prompts for user input.
+
+<a href="https://drive.google.com/file/d/1GCF4JPOFVLexQl25vAQrj9gSdYEma3Oh/preview"> Click to view a walkthrough video!</a>
 <br>
 <img src="./assets/9SS1.png" alt="guide screenshot">
 <br>
 <img src="./assets/9SS2.png" alt="guide screenshot">
-<br>
-<iframe src="https://drive.google.com/file/d/1GCF4JPOFVLexQl25vAQrj9gSdYEma3Oh/preview" width="640" height="480"></iframe>
+
  
 ## License
 This project is licensed under the ISC License.
