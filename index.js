@@ -73,6 +73,7 @@ ${answers.title}
 ${answers.description}
 ## Usage
 ${answers.usage}
+[Click here to view walk-through video](https://github.com/alexemrob/README-Generator/blob/master/assets/HW9recording.webm)
 ## License
 This project is licensed under the ${answers.license} License.
 ## Installation Instructions
