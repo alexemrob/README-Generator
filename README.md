@@ -10,19 +10,19 @@
 - [Questions](##Questions)
 
 # Title
-Custom README File Generator
+Custom README.md Generator
 ## Description
-This is used to create a complete, organized README file for your repository.
+This generator will create a customized, organized, complete README file for your repository.
 ## Usage
-Follow the prompts to provide all neccessary information.
+Run the "node index.js" command to receive prompts for user input.
 ## License
 This project is licensed under the ISC License.
 ## Installation Instructions
-Install npm for neccessary files.
+You must have npm/node modules installed.
 ## Contributing
-There are no guidelines for this.
+Enter descriptive easily understandable information when promted.
 ## Tests
-Test instructions are not neccessary.
+No test instrustions.
 ## Questions
 
 [Visit my repository!](https://www.github.com/alexemrob)
