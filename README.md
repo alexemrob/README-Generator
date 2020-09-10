@@ -1,4 +1,4 @@
-![GitHub license](https://img.shields.io/badge/license-Artistic license 2.0-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)
 # Table of Contents
 - [Title](#Title)
 - [Description](##Description)
@@ -10,21 +10,21 @@
 - [Questions](##Questions)
 
 # Title
-README Gen
+Custom README File Generator
 ## Description
-hfgh
+This is used to create a complete, organized README file for your repository.
 ## Usage
-hgfh
+Follow the prompts to provide all neccessary information.
 ## License
-This project is licensed under the Artistic license 2.0 License.
+This project is licensed under the ISC License.
 ## Installation Instructions
-fgdsfgsdfg
+Install npm for neccessary files.
 ## Contributing
-fgdsgsdg
+There are no guidelines for this.
 ## Tests
-fgdgf
+Test instructions are not neccessary.
 ## Questions
 
-[Visit my repository!](https://www.github.com/fgsdfg)
+[Visit my repository!](https://www.github.com/alexemrob)
 
-For any further questions email me at fdgsd
+For any further questions email me at AlexEmRob@gmail.com

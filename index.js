@@ -39,7 +39,7 @@ function promptUser() {
         {
             type: "list",
             name: "license",
-            choices: ["Artistic license 2.0", "Boost Software License 1.0", "Creative Commons license family", "Eclipse Public License 1.0", "MIT", "ISC", "The Unilicense"],
+            choices: ["MIT", "ISC", "BSD", "Apache", "GPL", "GNU"],
             message: "Choose a license for your README."
         },
         {
